@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvel Travels — Explore The World With Us</title>
+  <meta name="description" content="Discover breathtaking destinations and create unforgettable memories with Marvel Travels. 500+ destinations, expert guides, best prices guaranteed.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-icon">
+        <i class="fas fa-globe-americas"></i>
+      </div>
+      <p>Marvel Travels</p>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header id="navbar" class="navbar">
+    <div class="container navbar-container">
+      <a href="#home" class="logo">
+        <i class="fas fa-paper-plane"></i>
+        <span>MARVEL <strong>TRAVELS</strong></span>
+      </a>
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#destinations" class="nav-link">Destinations</a></li>
+          <li><a href="#packages" class="nav-link">Packages</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1920&q=80')"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">Explore The World <span>With Us</span></h1>
+      <p class="hero-subtitle">Discover breathtaking destinations and create unforgettable memories with Marvel Travels</p>
+      <a href="#packages" class="btn btn-primary btn-lg">
+        <i class="fas fa-compass"></i> Explore Packages
+      </a>
+    </div>
+    <a href="#stats" class="scroll-indicator" aria-label="Scroll down">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </a>
+  </section>
+
+  <!-- Stats Bar -->
+  <section id="stats" class="stats-section">
+    <div class="container stats-grid">
+      <div class="stat-item reveal">
+        <div class="stat-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <h3 class="stat-number" data-target="500">0</h3>
+        <p class="stat-suffix">+</p>
+        <p class="stat-label">Destinations</p>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-icon"><i class="fas fa-smile"></i></div>
+        <h3 class="stat-number" data-target="10000">0</h3>
+        <p class="stat-suffix">+</p>
+        <p class="stat-label">Happy Travelers</p>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-icon"><i class="fas fa-award"></i></div>
+        <h3 class="stat-number" data-target="15">0</h3>
+        <p class="stat-suffix">+</p>
+        <p class="stat-label">Years Experience</p>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-icon"><i class="fas fa-headset"></i></div>
+        <h3 class="stat-number" data-target="24">0</h3>
+        <p class="stat-suffix">/7</p>
+        <p class="stat-label">Support</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Destinations -->
+  <section id="destinations" class="destinations-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Top Picks</span>
+        <h2 class="section-title">Popular Destinations</h2>
+        <p class="section-subtitle">Explore our handpicked destinations loved by travelers worldwide</p>
+      </div>
+      <div class="destinations-grid">
+
+        <div class="destination-card reveal">
+          <div class="destination-img">
+            <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80" alt="Bali, Indonesia" loading="lazy">
+            <div class="destination-price">From $899</div>
+          </div>
+          <div class="destination-info">
+            <div class="destination-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>4.8</span>
+            </div>
+            <h3>Bali</h3>
+            <p class="destination-country"><i class="fas fa-map-pin"></i> Indonesia</p>
+            <p class="destination-desc">Experience the magic of Bali with its stunning temples, lush rice terraces, and vibrant culture.</p>
+          </div>
+        </div>
+
+        <div class="destination-card reveal">
+          <div class="destination-img">
+            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&q=80" alt="Paris, France" loading="lazy">
+            <div class="destination-price">From $1,199</div>
+          </div>
+          <div class="destination-info">
+            <div class="destination-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0</span>
+            </div>
+            <h3>Paris</h3>
+            <p class="destination-country"><i class="fas fa-map-pin"></i> France</p>
+            <p class="destination-desc">The city of love awaits with its iconic Eiffel Tower, world-class cuisine, and timeless charm.</p>
+          </div>
+        </div>
+
+        <div class="destination-card reveal">
+          <div class="destination-img">
+            <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=600&q=80" alt="Maldives" loading="lazy">
+            <div class="destination-price">From $1,499</div>
+          </div>
+          <div class="destination-info">
+            <div class="destination-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0</span>
+            </div>
+            <h3>Maldives</h3>
+            <p class="destination-country"><i class="fas fa-map-pin"></i> Indian Ocean</p>
+            <p class="destination-desc">Pristine white-sand beaches, crystal-clear waters, and luxurious overwater villas await you.</p>
+          </div>
+        </div>
+
+        <div class="destination-card reveal">
+          <div class="destination-img">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&q=80" alt="Dubai, UAE" loading="lazy">
+            <div class="destination-price">From $999</div>
+          </div>
+          <div class="destination-info">
+            <div class="destination-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>4.7</span>
+            </div>
+            <h3>Dubai</h3>
+            <p class="destination-country"><i class="fas fa-map-pin"></i> United Arab Emirates</p>
+            <p class="destination-desc">A futuristic cityscape blending luxury shopping, ultramodern architecture, and desert adventures.</p>
+          </div>
+        </div>
+
+        <div class="destination-card reveal">
+          <div class="destination-img">
+            <img src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=600&q=80" alt="Switzerland" loading="lazy">
+            <div class="destination-price">From $1,299</div>
+          </div>
+          <div class="destination-info">
+            <div class="destination-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>4.9</span>
+            </div>
+            <h3>Switzerland</h3>
+            <p class="destination-country"><i class="fas fa-map-pin"></i> Europe</p>
+            <p class="destination-desc">Majestic Alps, pristine lakes, and charming villages make Switzerland a dream destination.</p>
+          </div>
+        </div>
+
+        <div class="destination-card reveal">
+          <div class="destination-img">
+            <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&q=80" alt="Tokyo, Japan" loading="lazy">
+            <div class="destination-price">From $1,099</div>
+          </div>
+          <div class="destination-info">
+            <div class="destination-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>4.8</span>
+            </div>
+            <h3>Tokyo</h3>
+            <p class="destination-country"><i class="fas fa-map-pin"></i> Japan</p>
+            <p class="destination-desc">Where ancient traditions meet cutting-edge technology in the world's most dynamic city.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Tour Packages -->
+  <section id="packages" class="packages-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Best Value</span>
+        <h2 class="section-title">Tour Packages</h2>
+        <p class="section-subtitle">Choose the perfect travel package tailored to your needs and budget</p>
+      </div>
+      <div class="packages-grid">
+
+        <div class="package-card reveal">
+          <div class="package-header">
+            <div class="package-icon"><i class="fas fa-gem"></i></div>
+            <h3>Silver</h3>
+            <p class="package-tagline">Perfect Starter</p>
+          </div>
+          <div class="package-price">
+            <span class="currency">$</span>
+            <span class="amount">799</span>
+            <span class="period">/person</span>
+          </div>
+          <ul class="package-features">
+            <li><i class="fas fa-clock"></i> 5 Days / 4 Nights</li>
+            <li><i class="fas fa-map-marked-alt"></i> 2 Destinations</li>
+            <li><i class="fas fa-hotel"></i> 3-Star Hotel</li>
+            <li><i class="fas fa-utensils"></i> Breakfast Included</li>
+            <li><i class="fas fa-bus"></i> Airport Transfers</li>
+            <li><i class="fas fa-user-tie"></i> City Tour Guide</li>
+            <li class="disabled"><i class="fas fa-times"></i> Adventure Activities</li>
+            <li class="disabled"><i class="fas fa-times"></i> Premium Lounge Access</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Book Now</a>
+        </div>
+
+        <div class="package-card featured reveal">
+          <div class="package-badge">Most Popular</div>
+          <div class="package-header">
+            <div class="package-icon"><i class="fas fa-crown"></i></div>
+            <h3>Gold</h3>
+            <p class="package-tagline">Best Value</p>
+          </div>
+          <div class="package-price">
+            <span class="currency">$</span>
+            <span class="amount">1,499</span>
+            <span class="period">/person</span>
+          </div>
+          <ul class="package-features">
+            <li><i class="fas fa-clock"></i> 7 Days / 6 Nights</li>
+            <li><i class="fas fa-map-marked-alt"></i> 4 Destinations</li>
+            <li><i class="fas fa-hotel"></i> 4-Star Hotel</li>
+            <li><i class="fas fa-utensils"></i> All Meals Included</li>
+            <li><i class="fas fa-bus"></i> Private Transfers</li>
+            <li><i class="fas fa-user-tie"></i> Personal Tour Guide</li>
+            <li><i class="fas fa-hiking"></i> Adventure Activities</li>
+            <li class="disabled"><i class="fas fa-times"></i> Premium Lounge Access</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Book Now</a>
+        </div>
+
+        <div class="package-card reveal">
+          <div class="package-header">
+            <div class="package-icon"><i class="fas fa-star"></i></div>
+            <h3>Platinum</h3>
+            <p class="package-tagline">Ultimate Luxury</p>
+          </div>
+          <div class="package-price">
+            <span class="currency">$</span>
+            <span class="amount">2,999</span>
+            <span class="period">/person</span>
+          </div>
+          <ul class="package-features">
+            <li><i class="fas fa-clock"></i> 10 Days / 9 Nights</li>
+            <li><i class="fas fa-map-marked-alt"></i> 6 Destinations</li>
+            <li><i class="fas fa-hotel"></i> 5-Star Luxury Resort</li>
+            <li><i class="fas fa-utensils"></i> All Meals + Fine Dining</li>
+            <li><i class="fas fa-car"></i> Private Luxury Transfers</li>
+            <li><i class="fas fa-user-tie"></i> Dedicated Concierge</li>
+            <li><i class="fas fa-hiking"></i> Exclusive Experiences</li>
+            <li><i class="fas fa-couch"></i> Premium Lounge Access</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Book Now</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section id="why-us" class="why-us-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Why Us</span>
+        <h2 class="section-title">Why Choose Marvel Travels</h2>
+        <p class="section-subtitle">We go above and beyond to make your travel dreams a reality</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <i class="fas fa-tags"></i>
+          </div>
+          <h3>Best Price Guarantee</h3>
+          <p>We promise the lowest prices on all our travel packages. Found a better deal? We'll match it and give you an extra 10% off.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+          <h3>Easy Booking</h3>
+          <p>Our seamless booking process takes just minutes. Book your dream vacation with flexible payment options and free cancellation.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <h3>Expert Guides</h3>
+          <p>Our certified, multilingual guides are passionate locals who bring every destination to life with insider knowledge and stories.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>24/7 Support</h3>
+          <p>Travel with peace of mind knowing our dedicated support team is available around the clock to assist you, wherever you are.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Gallery</span>
+        <h2 class="section-title">Travel Moments</h2>
+        <p class="section-subtitle">Captured memories from our travelers around the world</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-tall reveal" data-index="0">
+          <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80" alt="Mountain lake landscape" loading="lazy">
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-index="1">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80" alt="Sunlit valley" loading="lazy">
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-index="2">
+          <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600&q=80" alt="Tropical waterfall" loading="lazy">
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item gallery-tall reveal" data-index="3">
+          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80" alt="Italian coastline" loading="lazy">
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-index="4">
+          <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?w=600&q=80" alt="Northern lights" loading="lazy">
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-index="5">
+          <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=600&q=80" alt="Beach sunset" loading="lazy">
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-index="6">
+          <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80" alt="Camping under stars" loading="lazy">
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-index="7">
+          <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&q=80" alt="Tropical beach" loading="lazy">
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" aria-label="Close lightbox"><i class="fas fa-times"></i></button>
+      <button class="lightbox-prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+      <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="Gallery image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Reviews</span>
+        <h2 class="section-title">What Our Travelers Say</h2>
+        <p class="section-subtitle">Real stories from real travelers who explored the world with us</p>
+      </div>
+      <div class="testimonials-wrapper reveal">
+        <div class="testimonials-slider" id="testimonialsSlider">
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">"An absolutely incredible experience! Marvel Travels planned every detail perfectly. From the stunning hotels to the expert guides, everything exceeded our expectations. We felt like royalty the entire trip."</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Sarah Johnson" loading="lazy">
+                <div>
+                  <h4>Sarah Johnson</h4>
+                  <p>New York, USA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">"The Bali trip was a dream come true. Marvel Travels took care of everything — the itinerary, accommodations, and local experiences were top-notch. I've already booked my next trip with them!"</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Michael Chen" loading="lazy">
+                <div>
+                  <h4>Michael Chen</h4>
+                  <p>London, UK</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              </div>
+              <p class="testimonial-text">"Our family vacation to Switzerland was beautifully organized. The kids loved every moment, and the value for money was unbeatable. Marvel Travels made it effortless and enjoyable for all of us."</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Emma Rodriguez" loading="lazy">
+                <div>
+                  <h4>Emma Rodriguez</h4>
+                  <p>Sydney, Australia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">"I've traveled with many agencies, but Marvel Travels stands out. Their 24/7 support saved us when our flight was delayed — they rearranged everything seamlessly. True professionals who genuinely care."</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="James Williams" loading="lazy">
+                <div>
+                  <h4>James Williams</h4>
+                  <p>Toronto, Canada</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-dots" id="testimonialDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter CTA -->
+  <section id="newsletter" class="newsletter-section">
+    <div class="newsletter-bg" style="background-image: url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1920&q=80')"></div>
+    <div class="newsletter-overlay"></div>
+    <div class="container newsletter-content reveal">
+      <i class="fas fa-paper-plane newsletter-icon"></i>
+      <h2>Get Exclusive Travel Deals</h2>
+      <p>Subscribe to our newsletter and be the first to receive amazing travel offers, insider tips, and destination inspiration. Save up to 40% on your next adventure!</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Enter your email address" required aria-label="Email address">
+        <button type="submit" class="btn btn-primary">Subscribe <i class="fas fa-arrow-right"></i></button>
+      </form>
+      <span class="newsletter-note"><i class="fas fa-lock"></i> We respect your privacy. Unsubscribe anytime.</span>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images reveal">
+          <div class="about-img-grid">
+            <img src="https://images.unsplash.com/photo-1522199710521-72d69614c702?w=400&q=80" alt="Team adventure" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1529516222410-8e703e7c3ef0?w=400&q=80" alt="Happy travelers" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&q=80" alt="Team meeting" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=400&q=80" alt="Travel planning" loading="lazy">
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <span class="section-tag">About Us</span>
+          <h2 class="section-title text-left">Your Trusted Travel Partner Since 2011</h2>
+          <p>Marvel Travels was founded with a simple yet powerful mission: to make world-class travel accessible to everyone. What started as a small team of passionate travelers has grown into one of the most trusted travel agencies, serving thousands of happy explorers across the globe.</p>
+          <p>We believe that travel is more than just visiting new places — it's about creating connections, gaining new perspectives, and building memories that last a lifetime. Our team of experienced travel designers works tirelessly to craft personalized itineraries that reflect your unique interests and desires.</p>
+          <div class="about-mission">
+            <i class="fas fa-quote-left"></i>
+            <p><strong>Our Mission:</strong> To inspire and empower people to explore the world by providing exceptional, personalized travel experiences at unbeatable value.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">Ready to start your adventure? We'd love to hear from you!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-form-wrapper reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name <span>*</span></label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                <span class="form-error" id="nameError"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address <span>*</span></label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                <span class="form-error" id="emailError"></span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                <span class="form-error" id="phoneError"></span>
+              </div>
+              <div class="form-group">
+                <label for="destination">Destination Interest</label>
+                <select id="destination" name="destination">
+                  <option value="">Select a destination</option>
+                  <option value="bali">Bali, Indonesia</option>
+                  <option value="paris">Paris, France</option>
+                  <option value="maldives">Maldives</option>
+                  <option value="dubai">Dubai, UAE</option>
+                  <option value="switzerland">Switzerland</option>
+                  <option value="tokyo">Tokyo, Japan</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message <span>*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your dream vacation..." required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+          <div class="form-success" id="formSuccess" style="display:none;">
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent Successfully!</h3>
+            <p>Thank you for reaching out. Our team will get back to you within 24 hours.</p>
+          </div>
+        </div>
+        <div class="contact-info-wrapper reveal">
+          <div class="contact-info-card">
+            <h3>Contact Information</h3>
+            <p>Fill out the form and our team will get back to you within 24 hours.</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-item-icon"><i class="fas fa-phone-alt"></i></div>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+1 (555) 123-4567</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+                <div>
+                  <h4>Email</h4>
+                  <p>hello@marveltravels.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <h4>Address</h4>
+                  <p>123 Travel Street, Suite 400<br>New York, NY 10001</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-socials">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30596698663!2d-74.25986432970718!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Our Location"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="#home" class="footer-logo">
+            <i class="fas fa-paper-plane"></i>
+            <span>MARVEL <strong>TRAVELS</strong></span>
+          </a>
+          <p>Your trusted travel partner dedicated to making your dream vacations a reality. Explore the world with confidence and style.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Top Destinations</h4>
+          <ul>
+            <li><a href="#destinations">Bali, Indonesia</a></li>
+            <li><a href="#destinations">Paris, France</a></li>
+            <li><a href="#destinations">Maldives</a></li>
+            <li><a href="#destinations">Dubai, UAE</a></li>
+            <li><a href="#destinations">Switzerland</a></li>
+            <li><a href="#destinations">Tokyo, Japan</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>Subscribe for exclusive deals and travel inspiration.</p>
+          <form class="footer-newsletter" id="footerNewsletter">
+            <input type="email" placeholder="Your email" required aria-label="Email for newsletter">
+            <button type="submit" aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+          </form>
+          <div class="footer-contact">
+            <p><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> hello@marveltravels.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> New York, NY 10001</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Marvel Travels. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
